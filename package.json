@@ -1,6 +1,6 @@
 {
-  "name": "",
-  "version": "",
+  "name": "fec-proxy-server",
+  "version": "1.0.0",
   "description": "",
   "author": "",
   "license": "",
@@ -8,10 +8,17 @@
     "node": ">=6.13.0"
   },
   "scripts": {
+    "start": "node server",
+    "start:dev": "nodemon server"
   },
   "dependencies": {
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "path": "^0.12.7"
   },
   "devDependencies": {
-    "eslint-config-hackreactor": "git://github.com/reactorcore/eslint-config-hackreactor"
+    "eslint-config-hackreactor": "git://github.com/reactorcore/eslint-config-hackreactor",
+    "http-proxy-middleware": "^1.0.6",
+    "nodemon": "^2.0.6"
   }
 }

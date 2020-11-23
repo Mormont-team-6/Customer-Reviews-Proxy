@@ -1,22 +1,24 @@
 module.exports = {
   photoCarousel: {
-    api: 'FIX_ME',
+    api: '/carousel-module/*',
     url: 'http://localhost:3003',
-    bundle: 'photoCarousel.js',
+    bundle: 'bundle.js',
   },
   reservations: {
-    api: 'FIX_ME',
+    api: ['/reservation/reservationCost', '/reservation/calendar'],
     url: 'http://localhost:3001',
-    bundle: 'reservations.js',
+    bundle: 'bundle.js',
   },
   reviews: {
-    api: 'FIX_ME',
+    api: '/reviews-module/*',
+    // ['/reviews-module/reviews/:id', '/reviews-module/ratings/:id'],
     url: 'http://localhost:3006',
-    bundle: 'reviews.js',
+    bundle: 'bundle.js',
   },
   placesToStay: {
-    api: 'FIX_ME',
+    api: ['/more/listings/:id', '/more/users/:id/favorites'],
     url: 'http://localhost:3004',
-    bundle: 'placesToStay.js',
+    bundle: 'bundle.js',
   },
 };
+

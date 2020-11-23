@@ -1,13 +1,13 @@
 # Project Name
 
-> Project description
+> beartnt proxy
 
 ## Related Projects
 
-  - https://github.com/teamName/repo
-  - https://github.com/teamName/repo
-  - https://github.com/teamName/repo
-  - https://github.com/teamName/repo
+  - https://github.com/Mormont-team-6/photo-carousel
+  - https://github.com/Mormont-team-6/Reservation-Service
+  - https://github.com/Mormont-team-6/Customer-Reviews-Service
+  - https://github.com/Mormont-team-6/places-to-stay
 
 ## Table of Contents
 

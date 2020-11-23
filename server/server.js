@@ -13,4 +13,10 @@ app.use('/bundles', router.bundles);
 
 app.use('/api', router.api);
 
+app.use('/*', (req, res) => {
+  res.sendFile(path.join(__dirname, '../public/index.html'));
+});
+
 module.exports = app;
+
+

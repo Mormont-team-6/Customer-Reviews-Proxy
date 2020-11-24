@@ -1,6 +1,6 @@
 # Project Name
 
-> beartnt proxy
+> Proxy server for a mock airbnb
 
 ## Related Projects
 
@@ -17,14 +17,27 @@
 
 ## Usage
 
-> Some usage instructions
+Startind node / nodemon
 
-## Requirements
+```sh
 
-An `nvmrc` file is included if using [nvm](https://github.com/creationix/nvm).
+npm start
 
-- Node 6.13.0
-- etc
+npm run-script start:dev
+
+```
+
+Starting and stopping a pm2 instance
+
+```sh
+
+sudo npm install pm2@latest -g
+
+npm run-script start:pm2
+
+npm run-script stop:pm2
+
+```
 
 ## Development
 
@@ -33,7 +46,8 @@ An `nvmrc` file is included if using [nvm](https://github.com/creationix/nvm).
 From within the root directory:
 
 ```sh
-npm install -g webpack
+
 npm install
+
 ```
 

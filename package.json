@@ -9,7 +9,9 @@
   },
   "scripts": {
     "start": "node server",
-    "start:dev": "nodemon server"
+    "start:dev": "nodemon server",
+    "start:pm2": "pm2 start server",
+    "stop:pm2": "pm2 stop server"
   },
   "dependencies": {
     "express": "^4.17.1",

@@ -1,7 +1,7 @@
 module.exports = {
   photoCarousel: {
     api: '/carousel-module/*',
-    url: 'http://localhost:3003',
+    url: 'http://13.57.185.148:3003',
     bundle: 'bundle.js',
   },
   reservations: {

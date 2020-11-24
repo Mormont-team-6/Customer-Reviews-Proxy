@@ -6,7 +6,7 @@ const {
 
 const router = Router();
 
-router.use('/.js', createProxyMiddleware({
+router.use('/photoCarousel.js', createProxyMiddleware({
   target: photoCarousel.url,
   pathRewrite: {
     '^/bundles/photoCarousel.js': photoCarousel.bundle
